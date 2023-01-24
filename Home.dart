@@ -59,7 +59,7 @@ class CallPage extends StatelessWidget {
       appID: 1234567,
       appSign:
           'ebj34nh5...',
-      userID: 'Localuserid',
+      userID: '$Localuserid',
       callID: callid,
       userName: 'user_$Localuserid',
       config: ZegoUIKitPrebuiltCallConfig.groupVideoCall(),
